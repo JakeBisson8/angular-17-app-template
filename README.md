@@ -13,6 +13,8 @@ a basic Angular 17 starter template that includes TailwindCSS, Angular Material,
 - tailwindcss
 - postcss
 - autoprefixer
+- lint-staged
+- husky
 
 ### Installation
 1. Clone this repository
