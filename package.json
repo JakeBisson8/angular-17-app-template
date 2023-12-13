@@ -10,7 +10,8 @@
     "lint": "ng lint",
     "lint:fix": "ng lint --fix",
     "prettier:check": "prettier ./src --check --ignore-unknown",
-    "prettier:write": "prettier ./src --write --ignore-unknown"
+    "prettier:write": "prettier ./src --write --ignore-unknown",
+    "prepare": "husky install"
   },
   "private": true,
   "dependencies": {
@@ -54,7 +55,7 @@
     "prettier": "^3.1.1",
     "prettier-plugin-tailwindcss": "^0.5.9",
     "tailwindcss": "^3.3.6",
-    "typescript": "~5.2.2"
+    "typescript": "~5.2.2",
+    "husky": "^8.0.0"
   }
 }
-

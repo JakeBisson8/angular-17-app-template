@@ -2,6 +2,8 @@ node_modules
 dist
 .vscode
 .angular
+.husky
 .editorconfig
 .gitignore
 README.md
+LICENSE
