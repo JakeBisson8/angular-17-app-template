@@ -1,27 +1,60 @@
-# Angular17AppTemplate
+# angular-17-app-template
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.6.
+### About
+a basic Angular 17 starter template that includes TailwindCSS, Angular Material, ESLint, Prettier and Husky.
 
-## Development server
+### Dependencies
+- angular
+- angular material
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Dev Dependencies
+- typescript
+- eslint
+- tailwindcss
+- postcss
+- autoprefixer
 
-## Code scaffolding
+### Installation
+1. Clone this repository
+```bash
+git clone 
+```
+2. Update remote to point to your own repository
+```bash
+git remote remove origin
+git remote add origin <your github repo link>.git
+git push
+```
+3. Udpate `package.json` to change the `name`, `description`, `version`, `keywords` etc. to whatever you want
+4. Install project dependencies
+```bash
+npm install
+```
+5. Start the development server
+```bash
+npm run start
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Lint
+```bash
+npm run lint
+```
 
-## Build
+### Format
+Check for format errors:
+```bash
+npm run prettier:check
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Format files:
+```bash
+npm run prettier:write
+```
 
-## Running unit tests
+### Test
+```bash
+npm run test
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### License
+[MIT](https://choosealicense.com/licenses/mit/)
