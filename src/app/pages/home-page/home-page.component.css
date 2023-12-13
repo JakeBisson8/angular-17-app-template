@@ -1,0 +1,19 @@
+h1 {
+  @apply my-3 text-center text-3xl;
+}
+
+h2 {
+  @apply my-3 text-2xl;
+}
+
+code {
+  @apply rounded-md bg-gray-200 px-1;
+}
+
+ul {
+  @apply mx-3 my-3 list-inside list-disc;
+}
+
+a {
+  @apply text-blue-600 underline hover:text-blue-800;
+}
