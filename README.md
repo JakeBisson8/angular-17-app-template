@@ -36,8 +36,14 @@ npm run start
 ```
 
 ### Lint
+Lint and don't apply fixes
 ```bash
 npm run lint
+```
+
+Lint and apply fixes where possible
+```bash
+npm lint:fix
 ```
 
 ### Format

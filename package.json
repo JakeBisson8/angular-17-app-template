@@ -8,6 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
+    "lint:fix": "ng lint --fix",
     "prettier:check": "prettier ./src --check --ignore-unknown",
     "prettier:write": "prettier ./src --write --ignore-unknown"
   },
@@ -56,3 +57,4 @@
     "typescript": "~5.2.2"
   }
 }
+
