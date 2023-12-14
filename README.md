@@ -17,18 +17,13 @@ a basic Angular 17 starter template that includes TailwindCSS, Angular Material,
 - husky
 
 ### Installation
-1. Clone this repository
+1. Select to use the template in GitHub and create a new repository
+2. Clone your new repository
 ```bash
-git clone 
+git clone <repository_link>.git
 ```
-2. Update remote to point to your own repository
-```bash
-git remote remove origin
-git remote add origin <your github repo link>.git
-git push
-```
-3. Udpate `package.json` to change the `name`, `description`, `version`, `keywords` etc. to whatever you want
-4. Install project dependencies
+3. Udpate `package.json` to change the `name`, `description`, `version`, `keywords` etc. to match your project.
+4. Install project dependencies using your package manager of choice
 ```bash
 npm install
 ```
@@ -40,14 +35,14 @@ npm install
     5. Tailwind CSS IntelliSense
 6. Consider configuring vscode to run prettier on file saved
     1. Open `settings.json`
-    1. Add the following rules
+    2. Add the following rules
 ```json
 {
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
 }
 ```
-1. Start the development server
+7. Start the development server
 ```bash
 npm run start
 ```
