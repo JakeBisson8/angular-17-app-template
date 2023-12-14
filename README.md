@@ -33,21 +33,21 @@ git push
 npm install
 ```
 5. Install recommended vscode extensions
-  1. Angular Language Service
-  2. ESLint
-  3. PostCSS Language Support
-  4. Prettier - Code Formatter
-  5. Tailwind CSS IntelliSense
+    1. Angular Language Service
+    2. ESLint
+    3. PostCSS Language Support
+    4. Prettier - Code Formatter
+    5. Tailwind CSS IntelliSense
 6. Consider configuring vscode to run prettier on file saved
-  1. Open `settings.json`
-  2. Add the following rules
+    1. Open `settings.json`
+    1. Add the following rules
 ```json
 {
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
 }
 ```
-7. Start the development server
+1. Start the development server
 ```bash
 npm run start
 ```
@@ -80,4 +80,6 @@ npm run test
 ```
 
 ### License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/JakeBisson8/angular-17-app-template/blob/main/LICENSE)  
+[https://choosealicense.com/licenses/mit/](https://choosealicense.com/licenses/mit/)
+
