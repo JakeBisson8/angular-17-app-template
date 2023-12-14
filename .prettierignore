@@ -1,10 +1,12 @@
 node_modules
 dist
+out-tsc
 .vscode
 .angular
 .husky
 .editorconfig
 .eslintignore
+.prettierignore
 .gitignore
 README.md
 LICENSE
