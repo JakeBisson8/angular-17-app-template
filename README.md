@@ -32,7 +32,22 @@ git push
 ```bash
 npm install
 ```
-5. Start the development server
+5. Install recommended vscode extensions
+  1. Angular Language Service
+  2. ESLint
+  3. PostCSS Language Support
+  4. Prettier - Code Formatter
+  5. Tailwind CSS IntelliSense
+6. Consider configuring vscode to run prettier on file saved
+  1. Open `settings.json`
+  2. Add the following rules
+```json
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+}
+```
+7. Start the development server
 ```bash
 npm run start
 ```
