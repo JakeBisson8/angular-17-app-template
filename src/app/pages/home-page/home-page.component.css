@@ -6,6 +6,10 @@ h2 {
   @apply my-3 text-2xl;
 }
 
+h3 {
+  @apply my-3 text-xl;
+}
+
 code {
   @apply rounded-md bg-gray-200 px-1;
 }
