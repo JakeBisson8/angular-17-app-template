@@ -11,7 +11,7 @@
     "lint:fix": "ng lint --fix",
     "prettier:check": "prettier ./src --check --ignore-unknown",
     "prettier:write": "prettier ./src --write --ignore-unknown",
-    "prepare": "husky install"
+    "prepare": "husky"
   },
   "private": true,
   "dependencies": {
