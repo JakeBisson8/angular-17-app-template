@@ -27,13 +27,16 @@ git clone <repository_link>.git
 ```bash
 npm install
 ```
-5. Install recommended vscode extensions
+5. Update angular.json to remove angular-17-app-template as the project name to whatever you want
+6. Update src/custom-theme.scss to change angular-17-app-template to the project name you want
+7. Change app component title to project name or any other title
+8. Install recommended vscode extensions
     1. Angular Language Service
     2. ESLint
     3. PostCSS Language Support
     4. Prettier - Code Formatter
     5. Tailwind CSS IntelliSense
-6. Consider configuring vscode to run prettier on file saved
+9. Consider configuring vscode to run prettier on file saved
     1. Open `settings.json`
     2. Add the following rules
 ```json
@@ -42,7 +45,7 @@ npm install
   "editor.defaultFormatter": "esbenp.prettier-vscode",
 }
 ```
-7. Start the development server
+10. Start the development server
 ```bash
 npm run start
 ```
