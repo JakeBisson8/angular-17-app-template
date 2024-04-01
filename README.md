@@ -50,6 +50,9 @@ npm install
 npm run start
 ```
 
+### Environments
+The project comes pre-configured with production and development environments. The environment files can be found in `src/environments`. For more on environments see the [Angular docs](https://angular.dev/tools/cli/environments#configure-environment-specific-defaults).
+
 ### Lint
 Lint and don't apply fixes
 ```bash
